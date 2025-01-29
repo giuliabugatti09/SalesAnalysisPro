@@ -47,13 +47,21 @@ Aqui estão dois exemplos de visualizações gerados pelo projeto:
 <p align="center"> <images/Variacao_vendas_diarias.png" alt="Gráfico de Métricas" width="70%"> </p>
 
 - **Validação dos Dados**:
--O script data_validation.py realiza verificações de integridade dos dados, como verificação de valores nulos e duplicatas.
--O script sql_queries.py executa consultas SQL para garantir a precisão das análises.
--**Google Colab**
--Você pode visualizar e interagir com os gráficos interativos diretamente no Google Colab: Link para o Google Colab
--**Contribuição**
--Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
--**Licença**
--Este projeto está licenciado sob a Licença MIT.
--**Contato**
--Para dúvidas ou sugestões, entre em contato através do email: giuliabugatti02@gmail.com
+
+1-O script data_validation.py realiza verificações de integridade dos dados, como verificação de valores nulos e duplicatas.
+2-O script sql_queries.py executa consultas SQL para garantir a precisão das análises.
+
+- **Google Colab**:
+Você pode visualizar e interagir com os gráficos interativos diretamente no Google Colab: Link para o Google Colab-O script sql_queries.py executa consultas SQL para garantir a precisão das análises.
+
+- **Contribuição**:
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+
+- **Licença**:
+Este projeto está licenciado sob a Licença MIT.
+
+- **Contato**:
+Para dúvidas ou sugestões, entre em contato através do email: giuliabugatti02@gmail.com
+
+
+
