@@ -10,32 +10,39 @@ Este projeto realiza uma análise de dados de vendas de uma empresa fictícia, u
 - **Plotly & Dash**: Criação de dashboards interativos.
 - **SQLite**: Banco de dados para validação das consultas SQL.
 
+## Pré-requisitos
+- Python 3.8 ou superior
+- Git
 
 ## Instalação
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu_usuario/sales-analysis-project.git
-   cd sales-analysis-project
-Crie um ambiente virtual e instale as dependências:
+Clone o repositório:
+```bash
+git clone https://github.com/seu_usuario/sales-analysis-project.git
+cd sales-analysis-project
+Crie um ambiente virtual e ative-o:
 
-   ```bash
+python -m venv venv
+source venv/bin/activate  # No Windows, use: venv\Scripts\activate
+Instale as dependências:
 
-source venv/bin/activate
-   ```
- 
-# No Windows, use: 
-   ```bash
-venv\Scripts\activate
 pip install -r requirements.txt
-   ```
-
 Execução do Projeto
 Execute o script principal para realizar a análise e gerar os relatórios:
 
-   ```bash
 python scripts/main.py
-   ```
 Os relatórios serão gerados na pasta raiz do projeto e enviados para o email configurado.
+
+Exemplos de Uso
+# Exemplo de como executar uma consulta SQL
+from sql_queries import execute_query
+
+query = "SELECT * FROM sales WHERE amount > 1000"
+results = execute_query(query)
+print(results)
+Visualizações
+Aqui está um exemplo de visualização gerada pelo projeto:
+
+!Exemplo de Gráfico
 
 Validação dos Dados
 O script data_validation.py realiza verificações de integridade dos dados, como verificação de valores nulos e duplicatas.
@@ -51,16 +58,15 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull re
 Licença
 Este projeto está licenciado sob a Licença MIT.
 
+Contato
+Para dúvidas ou sugestões, entre em contato através do email: seu_email@dominio.com
 
-### Resumo do Projeto
 
-**Título**: Sales Analysis Project
+Espero que isso ajude! Se precisar de mais alguma coisa, é só avisar. 😊
 
-**Objetivo**: Realizar uma análise de dados de vendas, gerar visualizações e relatórios automatizados, e enviar esses relatórios por email.
+Editar em Pages
 
-**Componentes**:
-- **Validação de Dados**: Assegurar a integridade dos dados.
-- **Consultas SQL**: Realizar consultas e análises detalhadas.
-- **Visualizações**: Criar gráficos interativos e informativos.
-- **Relatórios Automatizados**: Gerar relatórios PDF e enviar por email.
 
+
+
+O conteúdo gerado por IA pode estar incorreto
