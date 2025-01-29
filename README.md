@@ -1,4 +1,4 @@
-l# Sales Analysis Project
+# Sales Analysis Project
 ## Descrição
 Este projeto realiza uma análise de dados de vendas de uma empresa fictícia, utilizando consultas SQL para análise e visualizações em Python. O projeto também inclui a geração automática de relatórios em formato PDF e o envio por email.
 ## Tecnologias Utilizadas
@@ -17,14 +17,21 @@ Clone o repositório:
 ```bash
 git clone https://github.com/giuliabugatti09/sentiment-analysis-comments
 cd sales-analysis-project
+```
 Crie um ambiente virtual e ative-o:
+```bash
 python -m venv venv
 source venv/bin/activate  # No Windows, use: venv\Scripts\activate
+```
+```bash
 Instale as dependências:
 pip install -r requirements.txt
+```
 Execução do Projeto
 Execute o script principal para realizar a análise e gerar os relatórios:
+```bash
 python scripts/main.py
+```
 Os relatórios serão gerados na pasta raiz do projeto e enviados para o email configurado.
 Exemplos de Uso
 # Exemplo de como executar uma consulta SQL
@@ -34,6 +41,7 @@ results = execute_query(query)
 print(results)
 Visualizações
 Aqui estão dois exemplos de visualizações gerados pelo projeto:
+
 <p align="center"> <img src="images/Painel_Interativo_vendas.png" alt="Gráfico de Métricas" width="70%"> </p>
 <p align="center"> <images/Variacao_vendas_diarias.png" alt="Gráfico de Métricas" width="70%"> </p>
 
