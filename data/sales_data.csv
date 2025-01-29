@@ -1,3 +1,4 @@
+
 OrderID	OrderDate	CustomerID	ProductID	Quantity	Price	Total	Cost		
 1	2025-01-27	Lucas	1	1	10.0	10.0	6.0		
 2	2025-05-07	Lucas	2	4	15.0	60.0	40.0		
